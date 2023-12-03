@@ -8,17 +8,15 @@ justify-content: center;
 flex-direction: column;
 justify-content: flex-start;
 background-color: #91C89A;
-height: 840px;
-width: 848px;
+height: 666px;
+width: 648px;
 
 }
-#form-button {
-    display: block;
-}
+
 img {
     margin: 40px 0px;
-    height: 150px;
-    width: 450px;
+    height: 140px;
+    width: 444px;
 }
 
  p{
@@ -35,4 +33,34 @@ div p:nth-child(2){
 }
 div p:nth-child(3){
     font-size: 18px;
+}
+
+form{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    width: 100%;
+}
+form input {
+    display: block;
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#form-field{
+    margin-top: 5px;
+    border: solid;
+}
+#form-button {
+    margin-top: 10px;
+    background-color: #4D4F4D;
+    color:whitesmoke;
+    border: none;
+}
+
+a {
+    margin-top: 7px;
+    color: #4D4F4D;
 }
