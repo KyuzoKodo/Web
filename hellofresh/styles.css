@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+.card {
+height: 1154px;
+width: 1158px;
+background-color: ;
+}
+#form-button {
+    display: block;
+}
+img {
+    height: 100px;
+    width: 200px;
+}
