@@ -2,25 +2,26 @@
     box-sizing: border-box;
 }
 #card {
+    
 display:flex;
-justify-content: space-evenly;
+justify-content: space-around;
   align-items: center;
 flex-direction: column;
 background-color: #91C89A;
 height: 666px;
 width: 648px;
+margin:0 0 0 0;
 
 }
 
 img {
-    margin: 40px 0px;
     height: 140px;
     width: 444px;
 }
 
  p{
     text-align: center;
-    margin: 35px;
+    justify-content: space-between;
  }
 
 div p:nth-child(1){
