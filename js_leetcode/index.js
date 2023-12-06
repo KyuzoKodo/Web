@@ -7,8 +7,13 @@ const assert = require('assert');
  * @return {number[]}
  */
 function filter(arr, filter_out) {
-  // TODO: Implement me!
-  return []
+
+
+  let filterd_arr = arr.filter(function(arrNumbers) {
+    return !filter_out.includes(arrNumbers);
+  });
+  return filterd_arr
+
 };
 
 /**
@@ -18,8 +23,14 @@ function filter(arr, filter_out) {
   * @return {Object}
 */
 function swapObjectKeyValue(obj) {
-  // TODO: Implement me!
-  return {}
+
+  let swappedObj = {}
+  for(let key in obj){
+    swappedObj[obj[key]]=key
+  }
+
+  
+  return swappedObj
 }
 
 /**
@@ -32,8 +43,8 @@ function swapObjectKeyValue(obj) {
 * @return {Object}
 */
 function mergeObject(obj1, obj2) {
-  // TODO: Implement me!
-  return {}
+  const mergedObject = { ...obj1, ...obj2};
+  return mergedObject
 }
 
 /**
