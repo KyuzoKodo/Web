@@ -5,20 +5,27 @@
     
 display:flex;
 justify-content: space-evenly;
+gap:5px;
   align-items: center;
 flex-direction: column;
 background-color: #91C89A;
-height: 666px;
-width: 648px;
-margin:0 0 0 0;
+height: 500px;
+width: 505;
+border-radius: 5px;
+padding: 5px;
+
 
 }
 
 img {
-    height: 140px;
-    width: 444px;
+    height: 100px;
+    width: 320px;
 }
+#title{
+    text-align: center;
+    justify-content: space-between;
 
+}
  p{
     text-align: center;
     justify-content: space-between;
@@ -40,6 +47,8 @@ form{
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   text-align: center;
+ 
     width: 100%;
     gap: 10px;
 }
@@ -54,12 +63,14 @@ form input {
 #form-field{
     
     border: solid;
+    padding: 5px;
 }
 #form-button {
     
     background-color: #4D4F4D;
     color:whitesmoke;
     border: none;
+    padding: 5px;
 }
 
 a {
